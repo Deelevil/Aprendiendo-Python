@@ -1,0 +1,35 @@
+#Tarea 02. Esta va sobre listas, tuplas, sets y diccionarios
+#La tarea es crear un sistema de inventario de una tienda de videojuegos.
+
+
+#1º Es crear la lista: Mutable y ordenada
+catalogo_juegos = ["Zelda","Mario", "Pokemon","Final Fantasy","COD"]
+catalogo_juegos.append(input("Ingrese que juego quieres agregar:")) #Esto sirve para agregar un nuevo juego al catalogo
+catalogo_juegos.sort() #Esto ordena la lista alfabeticamente
+print(f"Catalogo de juegos ordenado:",catalogo_juegos)
+
+#2º Ahora viene la tupla: Inmutable
+info_tienda ="EirosGames", 2004
+tupla ="New games"
+print(f"Información de la tienda:", info_tienda)
+
+#3º Ahora el set: No ordenado y sin elementos repetidos
+generos={"Acción","Aventura","RPG","Estrategia"}
+generos.add(input("Ingrese un nuevo genero de juego:")) #Esto sirve para agregar un nuevo genero al set
+print(f"Géneros de juegos disponibles:",generos)
+print(input("Ingrese un genero para verificar si esta disponible:") in generos) #Esto verifica si el genero ingresado esta disponible en el set
+
+
+#4º Por último el diccionario: Colección de pares clave-valor
+inventario={
+    "Zelda":10,
+    "Mario":15,
+    "Pokemon":20,
+    "Final Fantasy":5,
+    "COD":8
+}
+print(f"Inventario de juegos: {inventario}")
+nuevo_juego=input("Ingrese el nombre del nuevo juego:") #Esto sirve para agregar un nuevo juego al inventario
+cantidad_juego=int(input("Ingrese la cantidad del nuevo juego:")) #Esto sirve para agregar la cantidad del nuevo juego al inventario
+inventario[nuevo_juego]=cantidad_juego #Esto agrega el nuevo juego y su cantidad al inventario
+print(f"Inventario actualizado: {inventario}")

@@ -1,0 +1,19 @@
+#Tarea 01. Calculadora de Rendimiento Academico
+
+#Primera parte, introducción del nombre
+nombre_usuario = input("Ingrese su nombre: ")
+
+#Segunda parte seria la introducción de las notas
+nota1 = float(input("Ingrese la primera nota:"))
+nota2 = float(input("Ingrese la segunda nota:"))
+nota3 = float(input("Ingrese la tercera nota:"))
+
+#Ahora se calcila el promedio de las notas
+promedio = (nota1 + nota2 + nota3)/3
+estatus_aprobado = promedio >=5.0
+
+#Ahora la salida de los resultados de forma legible
+print(f"Hola {nombre_usuario}, tu promedio es: {promedio:.2f}")
+print(f"Has aprobado? {'Sí' if estatus_aprobado else 'No'}")
+
+#Tarea Terminada. Posibles melloras. Volver a revisar en un futuro
