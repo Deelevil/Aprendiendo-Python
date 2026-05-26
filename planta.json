@@ -1,0 +1,20 @@
+[
+    {
+        "id_reactor": "R-01",
+        "ubicacion": "Sector Norte",
+        "telemetria": {
+            "temperatura_c": 180,
+            "presion_bar": 12.5,
+            "estado": "Estable"
+        }
+    },
+    {
+        "id_reactor": "R-02",
+        "ubicacion": "Sector Sur",
+        "telemetria": {
+            "temperatura_c": 295,
+            "presion_bar": 19.1,
+            "estado": "Critico"
+        }
+    }
+]
