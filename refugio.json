@@ -1,0 +1,40 @@
+[
+    {
+        "Chip id": "123",
+        "Especie": "Esquirla",
+        "caracteristicas": {
+            "Tierra": "Tierra",
+            "Peligro": "5"
+        }
+    },
+    {
+        "Chip id": "456",
+        "Especie": "DFG",
+        "caracteristicas": {
+            "Planeta Origen:": "Marte"
+        }
+    },
+    {
+        "Chip id": "789",
+        "Especie": "Espada",
+        "caracteristicas": {
+            "Planeta de Origen:": "Mercury",
+            "Peligro:": "9",
+            "Armas:": "Espada en la cabeza"
+        }
+    },
+    {
+        "Chip id": "159",
+        "Especie": "GHIU",
+        "caracteristicas": {
+            "Planeta de Origen": "PErmaFrost"
+        }
+    },
+    {
+        "Chip id": "357x",
+        "Especie": "njsdgnji456",
+        "caracteristicas": {
+            "Planeta de Origen:": "GUAcamole"
+        }
+    }
+]
