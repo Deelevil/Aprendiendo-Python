@@ -59,6 +59,6 @@ if exportar.lower() == 's':
         json.dump(estudiantes, f, indent=4)
         print("Datos exportados a estudiantes.json")
 else:
-    print("Exportación cancelada.")
+    print("Exportación cancelada.") 
 
 #Terminado esta vez si
