@@ -1,0 +1,6 @@
+# Códigos ANSI para colores (¡Son textos normales!)
+VERDE = "\033[32m"
+ROJO = "\033[31m"
+AMARILLO = "\033[33m"
+AZUL = "\033[34m"
+RESET = "\033[0m" # 🧼 ¡CRUCIAL! Limpia la brocha para no pintar toda la pantalla
