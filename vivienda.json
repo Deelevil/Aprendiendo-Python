@@ -1,0 +1,26 @@
+[
+    {
+        "Habitaci\u00f3n": "Casa Lugo",
+        "Electrodomesticos": {
+            "Ordenador": 300.0,
+            "Telefono": 40.0,
+            "Flexo": 100.0
+        }
+    },
+    {
+        "Habitaci\u00f3n": "Casa Meira",
+        "Electrodomesticos": {
+            "Ordenador": 450.0,
+            "Monitor": 100.0,
+            "Telefono": 45.0,
+            "Flexo": 100.0
+        }
+    },
+    {
+        "Habitaci\u00f3n": "Casa XX",
+        "Electrodomesticos": {
+            "Ordenador": 200.0,
+            "Horno Industrial": 1500.0
+        }
+    }
+]

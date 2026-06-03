@@ -4,3 +4,9 @@ ROJO = "\033[31m"
 AMARILLO = "\033[33m"
 AZUL = "\033[34m"
 RESET = "\033[0m" # 🧼 ¡CRUCIAL! Limpia la brocha para no pintar toda la pantalla
+
+
+
+1. Preparar : git add .
+2. Registrar : git commit -m "Mensaje"
+3. Enviar : git push origin main
